@@ -7,12 +7,6 @@
 		<heading-deg>4</heading-deg>
 		<pitch-deg>-6.5</pitch-deg>
 	</offsets>
-	<!-- EXTRA MODELS -->
-	<!-- 3d light cone -->
-	<model>
-		<name>Cone</name>
-		<path>Aircraft/A320neo/Models/Lights/light-cone.xml</path>
-	</model>
 
 	<!-- ANIMATIONS -->
 	<!-- On/off -->
@@ -59,5 +53,10 @@
 		<y-offset>0.5</y-offset>
 		<z-offset>0.5</z-offset>
 	</animation>
+	
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>Light</object-name>
+	</effect>
 
 </PropertyList>
