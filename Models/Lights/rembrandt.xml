@@ -22,6 +22,20 @@
 	
 	<animation>
 		<type>select</type>
+		<object-name>logo1</object-name>
+		<object-name>logo2</object-name>
+		<object-name>logo-sphere1</object-name>
+		<object-name>logo-sphere2</object-name>
+		<condition>
+			<equals>
+				<property>controls/lighting/nav-lights-switch</property>
+				<value>2</value>
+			</equals>
+		</condition>
+	</animation>
+	
+	<animation>
+		<type>select</type>
 		<object-name>strobe-WL</object-name>
 		<object-name>strobe-WL-sphere</object-name>
 		<object-name>strobe-WR</object-name>
@@ -46,6 +60,10 @@
 		<type>select</type>
 		<object-name>land-L-cone</object-name>
 		<object-name>land-L</object-name>
+		<object-name>land-L-sphere</object-name>
+		<object-name>landing-l-sphere</object-name>
+		<object-name>land-L-bulb</object-name>
+		<object-name>bulb-l</object-name>
 		<condition>
 			<property>controls/lighting/landing-lights[0]</property>
 		</condition>
@@ -64,6 +82,10 @@
 		<type>select</type>
 		<object-name>land-R-cone</object-name>
 		<object-name>land-R</object-name>
+		<object-name>land-R-sphere</object-name>
+		<object-name>landing-r-sphere</object-name>
+		<object-name>land-R-bulb</object-name>
+		<object-name>bulb-r</object-name>
 		<condition>
 			<property>controls/lighting/landing-lights[2]</property>
 		</condition>
@@ -217,6 +239,102 @@
 		<cutoff>250</cutoff>
 		<near-m>0.01</near-m>
 		<far-m>250</far-m>
+	</animation>
+	
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>logo</name>
+		<object-name>logo-sphere1</object-name>
+		<nopreview/>
+		<position><x>28.7464</x><y>-0.5</y><z>3.56</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>1</c><l>0.8</l><q>2</q></attenuation>
+		<cutoff>15</cutoff>
+		<near-m>1</near-m>
+		<far-m>15</far-m>
+	</animation>
+	
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>logo</name>
+		<object-name>logo-sphere2</object-name>
+		<nopreview/>
+		<position><x>28.7464</x><y>0.5</y><z>3.56</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>1</c><l>0.8</l><q>2</q></attenuation>
+		<cutoff>15</cutoff>
+		<near-m>1</near-m>
+		<far-m>15</far-m>
+	</animation>
+	
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>land-L-sphere</name>
+		<object-name>landing-l-sphere</object-name>
+		<nopreview/>
+		<position><x>-5</x><y>-3.09</y><z>-1.2</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>1</c><l>0.8</l><q>2</q></attenuation>
+		<cutoff>20</cutoff>
+		<near-m>1</near-m>
+		<far-m>20</far-m>
+	</animation>
+	
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>land-R-sphere</name>
+		<object-name>landing-r-sphere</object-name>
+		<nopreview/>
+		<position><x>-5</x><y>3.09</y><z>-1.2</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>1</c><l>0.8</l><q>2</q></attenuation>
+		<cutoff>20</cutoff>
+		<near-m>1</near-m>
+		<far-m>20</far-m>
+	</animation>
+	
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>land-L-bulb</name>
+		<object-name>bulb-l</object-name>
+		<nopreview/>
+		<position><x>-1.74</x><y>-3.47</y><z>-1.29</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>1</c><l>0.8</l><q>2</q></attenuation>
+		<cutoff>20</cutoff>
+		<near-m>1</near-m>
+		<far-m>20</far-m>
+	</animation>
+	
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>land-R-bulb</name>
+		<object-name>bulb-r</object-name>
+		<nopreview/>
+		<position><x>-1.74</x><y>3.47</y><z>-1.29</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>1</c><l>0.8</l><q>2</q></attenuation>
+		<cutoff>20</cutoff>
+		<near-m>1</near-m>
+		<far-m>20</far-m>
 	</animation>
 
 </PropertyList>

@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <PropertyList>
+
+	<!-- Translucent Objects -->
 	
-	<!-- ################################################################### -->
+		<effect>
+			<inherits-from>Effects/model-transparent</inherits-from>
+			<object-name>land-light-l</object-name>
+			<object-name>land-light-r</object-name>
+		</effect>
+	
+	<!-- Landing Lights -->
+	
+	<animation>
+    	<type>material</type>
+		<object-name>landing-l</object-name>
+    	<condition>
+        	<property>controls/lighting/landing-lights[0]</property>
+  		</condition>
+    	<emission>
+      		<red>   1 </red>
+      		<green> 1 </green>
+      		<blue>  1 </blue>
+    	</emission>
+  	</animation>
+  	
+  	<animation>
+    	<type>material</type>
+		<object-name>landing-r</object-name>
+    	<condition>
+        	<property>controls/lighting/landing-lights[2]</property>
+  		</condition>
+    	<emission>
+      		<red>   1 </red>
+      		<green> 1 </green>
+      		<blue>  1 </blue>
+    	</emission>
+  	</animation>
+  	
+  	<animation>
+    	<type>material</type>
+		<object-name>taxi-light</object-name>
+    	<condition>
+        	<property>controls/lighting/landing-lights[1]</property>
+  		</condition>
+    	<emission>
+      		<red>   1 </red>
+      		<green> 1 </green>
+      		<blue>  1 </blue>
+    	</emission>
+  	</animation>
 	
 	<!-- Surface Animations -->
 	

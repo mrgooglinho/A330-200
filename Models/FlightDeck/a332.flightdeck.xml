@@ -104,6 +104,8 @@
 		<object-name>trans</object-name>
 		<object-name>fcs_screen</object-name>
 		<object-name>ped-lts</object-name>
+		<object-name>trim_2_lts</object-name>
+		<object-name>thr_quad_lts</object-name>
 	</effect>
 	
 	<!-- ################################################################### -->
