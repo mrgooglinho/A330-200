@@ -43,6 +43,12 @@ var general_loop_1 = {
     	setprop("/engines/engine/fuel-flow-kgph", getprop("/engines/engine/fuel-flow_pph") * 0.45359237);
     	setprop("/engines/engine[1]/fuel-flow-kgph", getprop("/engines/engine[1]/fuel-flow_pph") * 0.45359237);
     	
+    	if (getprop("/instrumentation/mcdu/page") == "hold") {
+    	
+    		setprop("/flight-management/hold/time-dist-string", getprop("/flight-management/hold/time") ~ "/" ~ getprop("/flight-management/hold/dist"));
+    	
+    	}
+    	
     	tyresmoke();
     	
     	cpy_props();
@@ -51,6 +57,13 @@ var general_loop_1 = {
     	
     	tilt_calc();
     	
+    	var nav = getprop("/controls/lighting/nav-lights-switch");
+    	
+    	if (nav == 2)
+    		setprop("/controls/lighting/logo", 1);
+    	else
+    		setprop("/controls/lighting/logo", 0);
+
 	},
 
         reset : func {
