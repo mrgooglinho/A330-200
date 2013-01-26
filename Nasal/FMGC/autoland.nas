@@ -1,4 +1,5 @@
 setprop("/autoland/phase", "disengaged");
+setprop("/autoland/early-descent", 500);
 
 var autoland = {
 
@@ -96,7 +97,7 @@ var autoland = {
 		
 		# Early Descent Approach Scenario as Proposed by Geir
 		
-		elsif (agl < 500) {
+		elsif (agl < getprop("/autoland/early-descent")) {
 		
 			me.early_descent(spd);
 		
