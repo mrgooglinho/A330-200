@@ -96,7 +96,7 @@ var autoland = {
 		
 		# Early Descent Approach Scenario as Proposed by Geir
 		
-		elsif (agl < 500) {
+		elsif (agl < 1000) {
 		
 			me.early_descent(spd);
 		
