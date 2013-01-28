@@ -287,7 +287,7 @@ var fmgc_loop = {
     			
     			# Using 1000 ft for the early descent scenario
     			
-    			if (agl > 1000) {
+    			if (agl > getprop("/autoland/early-descent")) {
     			
     				setprop(servo~ "elevator-gs", 1);
     				
