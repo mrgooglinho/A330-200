@@ -1,5 +1,5 @@
 setprop("/autoland/phase", "disengaged");
-setprop("/autoland/early-descent", 500);
+setprop("/autoland/early-descent", 600);
 
 var autoland = {
 
@@ -77,7 +77,7 @@ var autoland = {
 			
 			setprop("/autoland/phase", "rollout");
 		
-		} elsif (agl <= 20) {
+		} elsif (agl <= 25) {
 		
 			me.flare2(agl);
 			
@@ -129,7 +129,7 @@ var autoland = {
 	
 	flare1: func(agl) {
 	
-		if (agl <= 40)	
+		if (agl <= 30)
 			setprop("/servo-control/target-vs", -2.5); # -150 fpm
 		else
 			setprop("/servo-control/target-vs", -5); # -300 fpm

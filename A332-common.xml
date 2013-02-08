@@ -924,6 +924,11 @@
 					<value>0.5</value>
 					<value>1</value>
 				</binding>
+				<binding>
+					<command>property-cycle</command>
+					<property>/controls/flight/ground-spoilers-armed</property>
+					<value>0</value>
+				</binding>
 			</key>
 			<key n="106">
 				<name>j</name>

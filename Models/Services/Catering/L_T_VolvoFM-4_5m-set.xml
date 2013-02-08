@@ -3,13 +3,22 @@
 <PropertyList>
 
 <!-- Catering Truck with loader platform moving to 4.5m -->
-<!-- A330-xxx version v0.8                              -->
+<!-- A330-xxx version v0.9                              -->
 
 	<!-- if the model ever makes it to the sceneryDB shared models use this one                -->
 	<!-- <path>Models/Airport/Vehicles/catering/Catering_Loader_Truck_VolvoFM-stowed.ac</path>
 	<texture-path>Models/Airport/Vehicles/catering/gate_gourmet_sa</texture-path>
 	-->
 	<path>Catering_Loader_Truck_VolvoFM-stowed.ac</path>
+	
+	<animation>
+		<type>translate</type>
+		<property>/aircraft/nose-compression</property>
+		<factor>0.3125</factor> <!-- 3.2 ft = 1 m -->
+		<axis>
+			<z>1</z>
+		</axis>
+	</animation>
 
 	<animation>
 		<name>cargo_box_all</name>

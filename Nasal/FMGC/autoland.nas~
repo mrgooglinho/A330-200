@@ -1,4 +1,5 @@
 setprop("/autoland/phase", "disengaged");
+setprop("/autoland/early-descent", 600);
 
 var autoland = {
 
@@ -84,7 +85,7 @@ var autoland = {
 			
 			setprop("/autoland/phase", "flare");
 		
-		} elsif (agl <= 100) {
+		} elsif (agl <= 50) {
 		
 			me.flare1(agl);
 
@@ -96,7 +97,7 @@ var autoland = {
 		
 		# Early Descent Approach Scenario as Proposed by Geir
 		
-		elsif (agl < 1000) {
+		elsif (agl < getprop("/autoland/early-descent")) {
 		
 			me.early_descent(spd);
 		
@@ -128,7 +129,7 @@ var autoland = {
 	
 	flare1: func(agl) {
 	
-		if (agl <= 40)	
+		if (agl <= 30)
 			setprop("/servo-control/target-vs", -2.5); # -150 fpm
 		else
 			setprop("/servo-control/target-vs", -5); # -300 fpm
