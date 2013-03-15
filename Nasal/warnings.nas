@@ -390,7 +390,7 @@ var warning_system = {
 				return ((getprop("position/altitude-agl-ft") < 1500) and (getprop("velocities/vertical-speed-fps") > 5) and (getprop("hydraulics/control/rat-unlck") == 1));
             };
             
-            var rat_g = memo.new("RAT OUT", "amber");
+            var rat_g = memo.new("RAT OUT", "green");
             rat_a.condition = func() {
 				return (((getprop("position/altitude-agl-ft") >= 1500) or (getprop("velocities/vertical-speed-fps") <= 5)) and (getprop("hydraulics/control/rat-unlck") == 1));
             };

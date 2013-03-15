@@ -4,8 +4,8 @@
 	<sim>
 		<model>
 			<livery>
-				<name>Air Berlin</name>
-				<texture>Liveries/A330-223/BER.png</texture>
+				<name>Aeroflot</name>
+				<a332-texture>Liveries/A330-243/AFL.png</a332-texture>
 			</livery>
 		</model>
 	</sim>
