@@ -1142,9 +1142,9 @@
 		<warnings>
 			<file>Aircraft/A330-200/Nasal/warnings.nas</file>
 		</warnings>
-		<arduino>
+		<!-- arduino>
 			<file>Aircraft/A330-200/Nasal/yoke.nas</file>
-		</arduino>
+		</arduino -->
 	</nasal>
 
 	
