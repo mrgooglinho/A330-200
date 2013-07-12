@@ -1053,7 +1053,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<product>
 			<property>aero/qbar-psf</property>
 			<property>metrics/Sw-sqft</property>
-			<value>0.016</value>
+			<value>0.036</value>
 			</product>
 		</function>
 <!--function name="aero/coefficient/CDalpha">
@@ -1234,7 +1234,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 					<independentVar lookup="row">velocities/mach</independentVar>
 						<tableData>
 						0.00      0.000
-						0.79      0.000
+						0.79      0.005
 						1.10      0.023
 						1.80      0.015
 						</tableData>

@@ -1053,7 +1053,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<product>
 			<property>aero/qbar-psf</property>
 			<property>metrics/Sw-sqft</property>
-			<value>0.016</value>
+			<value>0.036</value>
 			</product>
 		</function>
 <!--function name="aero/coefficient/CDalpha">

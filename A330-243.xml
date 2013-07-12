@@ -1008,7 +1008,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 				<independentVar lookup="row">aero/alpha-rad</independentVar>
 				<independentVar lookup="column">fcs/flap-pos-deg</independentVar>
 				<tableData>
-					0.0000	1.0000	9.0000	10.0000	40.0000
+					    0.0000	1.0000	9.0000	10.0000	40.0000
 				-0.0900	-0.2200	-0.2200	-0.1200	-0.1200	0.2500
 				0.0000	0.2500	0.2500	0.3500	0.3500	0.7500
 				0.0900	0.7300	0.7300	0.8300	0.8300	1.2300
@@ -1071,7 +1071,7 @@ xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 			<product>
 			<property>aero/qbar-psf</property>
 			<property>metrics/Sw-sqft</property>
-			<value>0.016</value>
+			<value>0.036</value>
 			</product>
 		</function>
 <!--function name="aero/coefficient/CDalpha">
