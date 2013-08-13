@@ -1,10 +1,13 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.733333 0.733333 0.733333  emis 0 0 0  spec 0.737255 0.721569 0.713726  shi 128  trans 0
 OBJECT world
+kids 1
+OBJECT group
+name "effect-group"
+loc -0.0210482 -2.50623 7.92596
 kids 2
 OBJECT group
 name "engine0"
-loc -0.0210482 -2.50623 7.92596
 kids 11
 OBJECT poly
 name "pw.nacelle0_"
@@ -13155,7 +13158,6 @@ refs 4
 kids 0
 OBJECT group
 name "engine1"
-loc -0.0210482 -2.50623 7.92596
 kids 11
 OBJECT poly
 name "ge.reverser1"

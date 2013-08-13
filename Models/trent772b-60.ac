@@ -1,10 +1,13 @@
 AC3Db
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.733333 0.733333 0.733333  emis 0 0 0  spec 0.737255 0.721569 0.713726  shi 128  trans 0
 OBJECT world
+kids 1
+OBJECT group
+name "effect-group"
+loc 0.129406 -2.37066 8.3498
 kids 2
 OBJECT group
 name "engine0"
-loc 0.129406 -2.37066 8.3498
 kids 16
 OBJECT poly
 name "pw.nacelle0_"
@@ -4850,7 +4853,7 @@ numvert 21
 -0.475873 -0.975147 0.9948
 0.00622851 -1.20252 0.628836
 -0.137452 -1.20757 0.636057
-0.00622851 -1.17671 0.691134
+0.00622851 -1.17671 0.691133
 -0.182478 -1.18524 0.696059
 numsurf 10
 SURF 0x10
@@ -13605,7 +13608,6 @@ refs 4
 kids 0
 OBJECT group
 name "engine1"
-loc 0.129406 -2.37066 8.3498
 kids 16
 OBJECT poly
 name "pw.nacelle0_"

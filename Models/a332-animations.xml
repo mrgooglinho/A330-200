@@ -4,57 +4,68 @@
 	
 	<!-- ########################## LIGHTING ############################### -->
 	
+	<!-- Deferred Model Combined -->
+	
+	<effect>
+		<inherits-from>Effects/model-combined-deferred</inherits-from>
+		<object-name>effect-group</object-name>
+	</effect>
+	
 	<!-- Lightmaps -->
 	
 	<effect>
-		<inherits-from>Effects/lightmap</inherits-from>
+		<inherits-from>Effects/model-combined-deferred</inherits-from>
 		<parameters>
-			<texture n="1">
+			<lightmap-enabled type="int">1</lightmap-enabled>
+			<texture n="3">
 				<image>Aircraft/A330-200/Models/Effects/res/logo-lightmap.png</image>
 			</texture>
-			<condition>
+			<lightmap-factor type="float" n="0">
 				<use>controls/lighting/logo</use>
-			</condition>
+			</lightmap-factor>
 		</parameters>
 		<object-name>rudder</object-name>
 		<object-name>vstab</object-name>
 	</effect>
 
 	<effect>
-		<inherits-from>Effects/lightmap</inherits-from>
+		<inherits-from>Effects/model-combined-deferred</inherits-from>
 		<parameters>
-			<texture n="1">
+			<lightmap-enabled type="int">1</lightmap-enabled>
+			<texture n="3">
 				<image>Aircraft/A330-200/Models/Effects/res/windshield-lightmap.png</image>
 			</texture>
-			<condition>
+			<lightmap-factor type="float" n="0">
 				<use>controls/lighting/cockpit</use>
-			</condition>
+			</lightmap-factor>
 		</parameters>
 		<object-name>windshield</object-name>
 	</effect>
 	
 	<effect>
-		<inherits-from>Effects/lightmap</inherits-from>
+		<inherits-from>Effects/model-combined-deferred</inherits-from>
 		<parameters>
-			<texture n="1">
+			<lightmap-enabled type="int">1</lightmap-enabled>
+			<texture n="3">
 				<image>Aircraft/A330-200/Models/Effects/res/windows-lightmap.png</image>
 			</texture>
-			<condition>
+			<lightmap-factor type="float" n="0">
 				<use>controls/lighting/cabin-lights</use>
-			</condition>
+			</lightmap-factor>
 		</parameters>
 		<object-name>fuselage</object-name>
 	</effect>
 
 	<effect>
-		<inherits-from>Effects/lightmap</inherits-from>
+		<inherits-from>Effects/model-combined-deferred</inherits-from>
 		<parameters>
-			<texture n="1">
+			<lightmap-enabled type="int">1</lightmap-enabled>
+			<texture n="3">
 				<image>Aircraft/A330-200/Models/Effects/res/wings-lightmap.png</image>
 			</texture>
-			<condition>
+			<lightmap-factor type="float" n="0">
 				<use>controls/lighting/wing-lights</use>
-			</condition>
+			</lightmap-factor>
 		</parameters>
 		<object-name>wing.in0</object-name>
 		<object-name>wing.mid0</object-name>
