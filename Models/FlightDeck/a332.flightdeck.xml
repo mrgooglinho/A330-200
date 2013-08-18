@@ -872,7 +872,7 @@
 		<format type="string">%3.0f</format>
 		<property>/flight-management/fcu-values/ias</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -898,7 +898,7 @@
 		<format type="string">%1.2f</format>
 		<property>/flight-management/fcu-values/mach</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -924,7 +924,7 @@
 		<format type="string">%s</format>
 		<property>/flight-management/fcu-values/hdg-disp</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -950,7 +950,7 @@
 		<format type="string">%5.0f</format>
 		<property>/flight-management/fcu-values/alt</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -976,7 +976,7 @@
 		<format type="string">%4.0f</format>
 		<property>/flight-management/fcu-values/vs</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -1002,7 +1002,7 @@
 		<format type="string">%2.0f</format>
 		<property>/flight-management/fcu-values/fpa</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -1174,7 +1174,7 @@
 		<format type="string">%2.2f</format>
 		<property>/instrumentation/altimeter/setting-inhg</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>
@@ -1200,7 +1200,7 @@
 		<format type="string">%2.2f</format>
 		<property>/instrumentation/altimeter/setting-inhg</property>
 		<truncate type="bool">false</truncate>
-		<font type="string">helvetica_bold.txf</font>
+		<font type="string">led.txf</font>
 		<draw-text type="bool">true</draw-text>
 		<draw-alignment type="bool">false</draw-alignment>
 		<draw-boundingbox type="bool">false</draw-boundingbox>

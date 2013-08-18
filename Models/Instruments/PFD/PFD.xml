@@ -477,13 +477,37 @@
     <!-- Next WPT Info -->
     
     <text>
+		<name>osgtext-green</name>
+		<offsets>
+			<x-m>0.0010</x-m>
+			<y-m>-0.069</y-m>
+			<z-m>-0.048</z-m>
+		</offsets>
+		<alignment>left-center</alignment>
+		<axis-alignment>yz-plane</axis-alignment>
+		<type type="string">number-value</type>
+		<format type="string">%0.3f</format>
+		<property>/velocities/mach</property>
+		<truncate type="bool">false</truncate>
+		<font type="string">led.txf</font>
+		<draw-text type="bool">true</draw-text>
+		<draw-alignment type="bool">false</draw-alignment>
+		<draw-boundingbox type="bool">false</draw-boundingbox>
+		<character-size>0.006</character-size>
+		<font-resolution>
+			<width type="int">32</width>
+			<height type="int">32</height>
+		</font-resolution>
+	</text>
+    
+    <text>
 		<name>osgtext-magenta</name>
 		<offsets>
 			<x-m>0.0010</x-m>
-			<y-m>-0.0583</y-m>
-			<z-m>-0.049</z-m>
+			<y-m>-0.069</y-m>
+			<z-m>-0.054</z-m>
 		</offsets>
-		<alignment>center-center</alignment>
+		<alignment>left-center</alignment>
 		<axis-alignment>yz-plane</axis-alignment>
 		<type type="string">text-value</type>
 		<format type="string">%s</format>
@@ -504,10 +528,10 @@
 		<name>osgtext-magenta</name>
 		<offsets>
 			<x-m>0.0010</x-m>
-			<y-m>-0.0583</y-m>
-			<z-m>-0.055</z-m>
+			<y-m>-0.069</y-m>
+			<z-m>-0.06</z-m>
 		</offsets>
-		<alignment>center-center</alignment>
+		<alignment>left-center</alignment>
 		<axis-alignment>yz-plane</axis-alignment>
 		<type type="string">number-value</type>
 		<format type="string">%3.2f</format>
@@ -528,10 +552,10 @@
 		<name>osgtext-magenta</name>
 		<offsets>
 			<x-m>0.0010</x-m>
-			<y-m>-0.0583</y-m>
-			<z-m>-0.061</z-m>
+			<y-m>-0.069</y-m>
+			<z-m>-0.066</z-m>
 		</offsets>
-		<alignment>center-center</alignment>
+		<alignment>left-center</alignment>
 		<axis-alignment>yz-plane</axis-alignment>
 		<type type="string">number-value</type>
 		<format type="string">%3.0f°</format>
