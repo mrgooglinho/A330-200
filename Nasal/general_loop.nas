@@ -53,6 +53,10 @@ var general_loop_1 = {
     	
     	}
     	
+    	# Copy Heading Bug to Internal Autopilot Heading Bug
+    	
+    	setprop("/autopilot/settings/heading-bug-deg", getprop("/flight-management/fcu-values/hdg"));
+    	
     	fuel_jett();
     	
     	tyresmoke();

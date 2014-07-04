@@ -2,8 +2,8 @@
 
 
 <turbine_engine name="cf6-80e1">
-	<milthrust> 61000 </milthrust>
-	<bypassratio>     4.24 </bypassratio>
+	<milthrust> 72000 </milthrust>
+	<bypassratio>     5.1 </bypassratio>
 	<tsfc>            0.345 </tsfc>
 	<idlen1>         30.0 </idlen1>
 	<idlen2>         60.0 </idlen2>

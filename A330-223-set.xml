@@ -12,8 +12,7 @@
 		<model>
 			<path>Aircraft/A330-200/Models/A330-223.xml</path>
 			<livery>
-				<file>blank</file>
-				<a332-texture>Liveries/A330-223/livery-blank.png</a332-texture>
+				<file type="string" />
 			</livery>
 	            	<!-- door n="0">
 		                <position-x-m>-11.3399</position-x-m>

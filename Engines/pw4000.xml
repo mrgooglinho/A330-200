@@ -3,7 +3,7 @@
 
 <turbine_engine name="pw4000">
 	<milthrust> 68600 </milthrust>
-	<bypassratio>     5 </bypassratio>
+	<bypassratio>     4.9 </bypassratio>
 	<tsfc>            0.348 </tsfc>
 	<idlen1>         30.0 </idlen1>
 	<idlen2>         60.0 </idlen2>

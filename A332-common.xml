@@ -628,7 +628,8 @@
 		</mcdu>
 	
 		<efis n="0">
-
+			<baro-mode type="bool">false</baro-mode>
+			<baro-std-mode type="bool">false</baro-std-mode>
 			<ecam>
 					<display-mode type="string">FUEL</display-mode>
 			</ecam>
